@@ -27,9 +27,11 @@ const Hero = () => {
             viewport={{ once: false, amount: 0.8 }}
             className="mb-9"
           >
-            From concept to completion, we ensure every details is optimized for
+          From concept to solutions, Quality construction within timely delivery,
+          Ensuring safety compliances to enhanced Productivity.
+            {/* From concept to completion, we ensure every details is optimized for
             strength and endurance, creating solutions that inspire confidence
-            and stand firm for years.
+            and stand firm for years. */}
           </motion.p>
           {/* btn */}
           <motion.div
