@@ -49,7 +49,7 @@ const NavMobile = () => {
       >
         <RiMenu3Fill />
       </SheetTrigger>
-      <SheetContent className="bg-primary border-none text-white">
+      <SheetContent className="bg-black border-none text-white">
         <div className="flex flex-col pt-16 pb-8 items-center justify-between h-full">
           <SheetHeader>
             <SheetTitle>
