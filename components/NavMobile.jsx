@@ -44,7 +44,7 @@ const NavMobile = () => {
   return (
     <Sheet open={isOpen} onOpenChange={setIsOpen}>
       <SheetTrigger
-        className="text-white flex items-center justify-center text-3xl"
+        className="text-black flex items-center justify-center text-3xl"
         onClick={() => setIsOpen(true)}
       >
         <RiMenu3Fill />
