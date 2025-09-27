@@ -40,7 +40,7 @@ const Hero = () => {
             whileInView="show"
             viewport={{ once: false, amount: 0.8 }}
           >
-            <Button text="See our work" />
+            {/* <Button text="See our work" /> */}
           </motion.div>
         </div>
       </div>
