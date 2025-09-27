@@ -33,15 +33,7 @@ const Hero = () => {
             strength and endurance, creating solutions that inspire confidence
             and stand firm for years. */}
           </motion.p>
-          /* {/* btn */}
-          <motion.div
-            variants={fadeIn("up", 0.4)}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: false, amount: 0.8 }}
-          >
-            {/* <Button text="See our work" /> */}
-          </motion.div> */
+          
         </div>
       </div>
     </section>
