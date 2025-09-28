@@ -75,9 +75,9 @@ const Form = () => {
   const [isSent, setIsSent] = useState(false);
 
   // Replace these with your actual EmailJS credentials
-  const SERVICE_ID = "service_dcznp5y";
-  const TEMPLATE_ID = "template_8xeskqb";
-  const PUBLIC_KEY = "wW4-CBKjRUP6nfzPH";
+  const SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
+const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
 
   const sendEmail = (e) => {
     e.preventDefault();
