@@ -1,7 +1,7 @@
 import { RiChat1Line, RiMapPin2Line, RiSmartphoneLine } from "react-icons/ri";
 import Socials from "./Socials";
 import Form from "./Form";
-
+import emailjs from '@emailjs/browser';
 import { motion } from "framer-motion";
 import { fadeIn } from "@/variants";
 
