@@ -212,8 +212,13 @@ const Services = () => {
                             );
                           })}
                         </ul>
+<<<<<<< HEAD
                         {/* btn */}
                         {/* <Button text="Read more" />  */}
+=======
+                         {/* btn */}
+                       /* <Button text="Read more" /> */ 
+>>>>>>> 67fbb145555e796cb26fbd18ca8ae1e738510cc8
                       </div>
                     </div>
                   </motion.div>

@@ -27,12 +27,17 @@ const Hero = () => {
             viewport={{ once: false, amount: 0.8 }}
             className="mb-9"
           >
+<<<<<<< HEAD
           From concept to solutions, Quality construction within timely delivery,
+=======
+            From concept to solutions, Quality construction within timely delivery,
+>>>>>>> 67fbb145555e796cb26fbd18ca8ae1e738510cc8
           Ensuring safety compliances to enhanced Productivity.
             {/* From concept to completion, we ensure every details is optimized for
             strength and endurance, creating solutions that inspire confidence
             and stand firm for years. */}
           </motion.p>
+<<<<<<< HEAD
           {/* btn */}
           {/* <motion.div
             variants={fadeIn("up", 0.4)}
@@ -42,6 +47,9 @@ const Hero = () => {
           >
             <Button text="See our work" />
           </motion.div> */}
+=======
+          
+>>>>>>> 67fbb145555e796cb26fbd18ca8ae1e738510cc8
         </div>
       </div>
     </section>
