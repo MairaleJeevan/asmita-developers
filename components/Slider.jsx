@@ -27,7 +27,7 @@ const Slider = () => {
               Exceeded expectations. On time, whitin budget and top quality
               work. High recommend!
             </p>
-            <p className="font-primary font-semibold text-primary">Jane Doe</p>
+            <p className="font-primary font-semibold text-primary">Bressy Jasone</p>
           </div>
         </div>
       </SwiperSlide>
@@ -51,7 +51,7 @@ const Slider = () => {
               Exceeded expectations. On time, whitin budget and top quality
               work. High recommend!
             </p>
-            <p className="font-primary font-semibold text-primary">Jane Doe</p>
+            <p className="font-primary font-semibold text-primary">Ishant Jadhav</p>
           </div>
         </div>
       </SwiperSlide>

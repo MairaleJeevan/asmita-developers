@@ -39,7 +39,7 @@ const About = () => {
                 <p>Company CEO</p>
               </div> */}
               {/* btn */}
-              <Button text="Contact us" />
+              {/* <Button text="Contact us" /> */}
             </motion.div>
           </div>
           {/* img */}

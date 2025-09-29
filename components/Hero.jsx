@@ -34,14 +34,14 @@ const Hero = () => {
             and stand firm for years. */}
           </motion.p>
           {/* btn */}
-          <motion.div
+          {/* <motion.div
             variants={fadeIn("up", 0.4)}
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.8 }}
           >
             <Button text="See our work" />
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </section>

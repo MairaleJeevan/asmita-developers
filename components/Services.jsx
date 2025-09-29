@@ -20,10 +20,18 @@ const serviceData = [
     description:
       "We build with precision and innovation, ensuring that every structure is strong, reliable, and built to last. From foundations to finishing touches, our expertise transforms ideas into reality.",
     serviceList: [
-      "Residential Builds",
-      "Structural Design",
-      "Site Prep",
-      "Concrete Work",
+      // "Residential Builds",
+      // "Structural Design",
+      // "Site Prep",
+      // "Concrete Work",
+      "Residential Builds with lock and key",
+      "Industrial Buildings",
+      "Commercial Buildings",
+      "Road and Infra Works",
+      "Finishing works",
+      "Specialized Waterproofing Works",
+      "MEP works",
+      "Intetior Works",
       "Framing & Roofing",
       "Interior Finish",
     ],
@@ -77,10 +85,16 @@ const serviceData = [
     description:
       "Providing expert guidance for construction and renovation projects. From planning and budgeting to compliance and sustainability, our consulting service ensure project success.",
     serviceList: [
-      "Project Plans",
+      "Complete Project Execution/Construction",
+      "Planning",
+      "Tendering",
+      "Budgeting",
+      "Estimation and Costing ",
+      "HSE implementation",
+      "Value Addition and Cost optimization",
       "Costing",
       "Site Management",
-      "Permits",
+      
       "Sustainability",
       "Safety",
     ],
@@ -199,7 +213,7 @@ const Services = () => {
                           })}
                         </ul>
                         {/* btn */}
-                        <Button text="Read more" />
+                        {/* <Button text="Read more" />  */}
                       </div>
                     </div>
                   </motion.div>
