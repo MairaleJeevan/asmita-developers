@@ -38,7 +38,7 @@ const Slider = () => {
           {/* avatar img */}
           <div className="relative hidden xl:flex w-[90px] h-[90px]">
             <Image
-              src="/assets/img/testimonials/avatar.jpg"
+              src="/assets/img/testimonials/avatar2.png"
               fill
               className="object-contain"
               quality={100}
@@ -62,7 +62,7 @@ const Slider = () => {
           {/* avatar img */}
           <div className="relative hidden xl:flex w-[90px] h-[90px]">
             <Image
-              src="/assets/img/testimonials/avatar.jpg"
+              src="/assets/img/testimonials/avatar1.png"
               fill
               className="object-contain"
               quality={100}
@@ -75,7 +75,7 @@ const Slider = () => {
               Exceeded expectations. On time, whitin budget and top quality
               work. High recommend!
             </p>
-            <p className="font-primary font-semibold text-primary">Jane Doe</p>
+            <p className="font-primary font-semibold text-primary">Nisha Rastogi</p>
           </div>
         </div>
       </SwiperSlide>

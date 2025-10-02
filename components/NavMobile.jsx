@@ -70,6 +70,7 @@ const NavMobile = () => {
                     to={link.path}
                     smooth
                     spy
+                    offset={-80}
                     duration={500}
                     className="cursor-pointer"
                     activeClass="text-accent"

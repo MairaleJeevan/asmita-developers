@@ -33,16 +33,16 @@ const links = [
 
 const Header = () => {
   return (
-    <header className="bg-white py-2"> {/* Reduced padding from py-3 to py-2 */}
+    <header className="bg-white py-1"> {/* Reduced padding from py-3 to py-2 */}
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           {/* logo */}
-          <div className="w-40"> {/* Reduced width from w-48 to w-40 */}
+          <div className="w-28 md:w-32"> {/* Reduced width from w-48 to w-40 */}
             <Logo />
           </div>
           
           {/* nav & btn */}
-          <nav className="hidden xl:flex items-center gap-8"> {/* Reduced gap from gap-10 to gap-8 */}
+          <nav className="hidden xl:flex items-center gap-6"> {/* Reduced gap from gap-10 to gap-8 */}
             <ul className="flex">
               {links.map((link, index) => {
                 return (

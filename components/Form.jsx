@@ -75,15 +75,11 @@ const Form = () => {
   const [isSent, setIsSent] = useState(false);
 
   // Replace these with your actual EmailJS credentials
-<<<<<<< HEAD
-  const SERVICE_ID = "service_dcznp5y";
-  const TEMPLATE_ID = "template_8xeskqb";
-  const PUBLIC_KEY = "wW4-CBKjRUP6nfzPH";
-=======
+
   const SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
 const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
 const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
->>>>>>> 67fbb145555e796cb26fbd18ca8ae1e738510cc8
+
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -187,12 +183,12 @@ const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
             disabled={isLoading}
           />
           <Button 
+            text={isLoading ? "Sending..." : "Send message"}
             type="submit" 
             disabled={isLoading}
             className={isLoading ? "opacity-50 cursor-not-allowed" : ""}
-          >
-            {isLoading ? "Sending..." : "Send message"}
-          </Button>
+          />
+            
         </div>
       </form>
     </div>
