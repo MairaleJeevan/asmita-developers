@@ -24,7 +24,7 @@ const serviceData = [
       // "Structural Design",
       // "Site Prep",
       // "Concrete Work",
-      "Residential Builds with lock and key",
+      "Residential Buildings with lock and key",
       "Industrial Buildings",
       "Commercial Buildings",
       "Road and Infra Works",
