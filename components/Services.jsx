@@ -31,9 +31,8 @@ const serviceData = [
       "Finishing works",
       "Specialized Waterproofing Works",
       "MEP works",
-      "Intetior Works",
+      "Interior Works",
       "Framing & Roofing",
-      "Interior Finish",
     ],
     thumbs: [
       { url: "/assets/img/services/thumb-1.jpg" },
